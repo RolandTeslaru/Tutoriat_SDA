@@ -1,0 +1,11 @@
+{
+    // butonul ▶ "Compile & Run" (extensia C/C++ Compile Run) - rulează în terminal, deci merge și cin
+    "c-cpp-compile-run.cpp-compiler": "clang++",
+    "c-cpp-compile-run.cpp-flags": "-std=c++17 -Wall -Wextra -g",
+    "c-cpp-compile-run.debugger-mimode": "lldb",
+    "c-cpp-compile-run.output-location": "output",
+    "files.exclude": {
+        "**/output": true,
+        "**/*.dSYM": true
+    }
+}
